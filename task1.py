@@ -11,7 +11,10 @@ Inputs:
 Sample output:
  Your name is Joe Lunchbox, and your email is joe@koolsandwiches.org.
 """
-#input name
-x = input()
-x = x.strip()
-print("Your name is" + x)
+
+name = input("what is your name")
+email = input("what is your email")
+name = name.strip()
+email = email.strip()
+
+print("Your name is " + name +"," " and your email is " + email)
