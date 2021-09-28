@@ -11,3 +11,10 @@
 # volume
 #
 # test output radius of 3 should give volume of 113.09733552923254
+import math
+
+num = input("Enter radius of a sphere.")
+num = float(num)
+num2 = 4/3 * math.pi * num ** 3
+num2 = str(num2)
+print("the volume of the sphere is " + num2)

@@ -13,3 +13,10 @@
 #
 # Test output
 # input sides of 5 and 7 should give hypotenuse of 8.60232526704
+A = input("enter 1 short side of triangle")
+B = input("second short side of a triangle")
+A = float(A)
+B = float(B)
+C = A ** (2) + B ** (2)
+C2 = C ** (1/2)
+print(C2)
